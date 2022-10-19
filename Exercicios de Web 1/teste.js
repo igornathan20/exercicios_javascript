@@ -44,4 +44,34 @@ document.write("<br/>");
 for(i=0;i<numeros.length;i++);
 document.write(numeros.reverse());
 
-        
+
+document.write("<br/>");   
+document.write("conta letras na frase exercicio de javascript");
+document.write("<br/>");
+
+var letra= prompt("digite uma letra");
+var frase = "exercicio de javascript";
+var resultado = 0;
+
+
+function contaletras(frase, letra){
+ for(i=0;i<frase.length;i++){
+    
+    if (frase[i]===letra){ resultado++;}
+
+}
+return resultado;
+}
+
+document.write(contaletras(frase,letra));
+
+
+
+document.write("<br/>");   
+document.write("substring");
+document.write("<br/>");
+
+var string = prompt("digite uma string");
+var posicao = frase.indexOf(string);
+
+document.write(posicao);
