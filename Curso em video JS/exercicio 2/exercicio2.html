@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+</head>
+<body>
+    <div id= "quadrado">
+            <header>
+                <h2>Verificador de idade</h2>
+            </header>
+
+            <main>
+                <div id="idade">
+                    <label for="ano"></label>Ano de nascimento:<input id="ano" type="number" name="ano" min="0" >
+
+                    <p>Sexo:
+                        <label for="sexo">Masculino</label> <input id="m" type="radio" name="sexo">
+                        <label for="sexo">Feminino</label> <input id="f" type="radio" name="sexo">
+                      </p>
+                    
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </div>
+
+                <div id="res">
+
+                </div>
+            </main>
+
+            <footer>
+                <h4>cursoemvideo</h4>
+            </footer>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
